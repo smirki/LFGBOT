@@ -7,12 +7,6 @@
   "description": "NodeJS version of my Java Discord bot MRVNLFG",
   "private": true,
   "main": "index.js",
-  "scripts": {
-    "start": "npx cross-env NODE_ENV=production node dist/index.js",
-    "start-watch": "nodemon",
-    "format": "prettier --write \"./{src,src/plugins}/*.ts\"",
-    "build": "npm run format && npx rimraf dist && tsc"
-  },
   "dependencies": {
     "@types/js-yaml": "^3.12.2",
     "@types/node": "^12.12.30",
