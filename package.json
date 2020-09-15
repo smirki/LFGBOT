@@ -20,6 +20,7 @@
     "bufferutil": "^4.0.1",
     "cross-env": "^6.0.3",
     "dotenv": "^8.2.0",
+    "eris": "^0.13.3",
     "https": "^1.0.0",
     "humanize-duration": "^3.22.0",
     "js-yaml": "^3.13.1",
